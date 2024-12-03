@@ -1,7 +1,7 @@
 // components/About/About.js
 import React from 'react';
 import './About.css';
-import myPhoto from '../naaz.jpg'; // Replace with actual path to your photo
+import myPhoto from '../naaz.jpg'; 
 
 function About() {
   return (
@@ -9,7 +9,8 @@ function About() {
       <h2>About Me</h2>
       <div className="about-content">
         <div className="about-image">
-          <img src={myPhoto} alt="My Photo" />
+          {/* Update the alt text to be more descriptive */}
+          <img src={myPhoto} alt="Portrait of Nazmeen Khan, a ReactJS Developer" />
         </div>
         <div className="about-text">
           <p>
